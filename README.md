@@ -1,7 +1,7 @@
 # 7950X-6650XT-B650M-Hackintosh
-*EFI files for my Hackintosh configuration*
+*EFI files for my macOS 15 Seqoia Hackintosh configuration*
 
-# Screenshots
+## Screenshots
 ![obfuscat](https://github.com/user-attachments/assets/1add2ca8-d569-4a8f-aebc-7e9ee20fb995)
 
 ## Specifications
@@ -19,6 +19,11 @@
 2 x DisplayPorts;
 1 x RJ-45 port;
 3 x audio jacks* </sub> </sub>
+<br>
+
+## Installation
+
+*Clone this repository to your installation USB's [EFI partition](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/).*
 
 > [!CAUTION]
 > *You must **generate your own SMBIOS.*** <br> *SMBIOS information* is specific to every individual Hackintosh and therefore is not included in the config.plist file. Failure to generate an SMBIOS might result in a lack of functionality for Apple services (such as App Store) or ***cause the installer to fail to boot entirely.*** <br>
