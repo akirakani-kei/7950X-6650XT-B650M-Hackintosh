@@ -6,7 +6,7 @@
 
 ## Specifications
 **CPU:** *AMD Ryzen 9 7950X* <br>
-**GPU:** *AMD Radeon 6650-XT* (ACPI spoof as 6600xt by [7luk](https://github.com/7luk)) <br>
+**GPU:** *AMD Radeon 6650-XT* (ACPI spoof as 6600-XT by [7luk](https://github.com/7luk)) <br>
 **RAM:** *32GB 6000MHz Corsair Vengeance (2x16)* <br>
 **Motherboard:** *GIGABYTE B650M-D3HP* <br>
 <sub>*RTL8125 Network Chipset* <br> *ALC897 Audio* <br>
@@ -21,9 +21,9 @@
 3 x audio jacks* </sub> </sub>
 
 > [!CAUTION]
-> *You must generate **your own** SMBIOS.* <br> *SMBIOS information* is specific to every individual Hackintosh and therefore is not included in the config.plist file. Failure to generate an SMBIOS might result in a lack of functionality for Apple services (such as App Store) or ***cause the installer to fail to boot entirely.*** <br>
-> [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) is a tool that does this automatically. It's best you use *MacPro7,1* for the B650M-7950X combo (see [Dortania](https://dortania.github.io/OpenCore-Install-Guide/extras/smbios-support.html#how-to-decide) for more information).
+> *You must **generate your own SMBIOS.*** <br> *SMBIOS information* is specific to every individual Hackintosh and therefore is not included in the config.plist file. Failure to generate an SMBIOS might result in a lack of functionality for Apple services (such as App Store) or ***cause the installer to fail to boot entirely.*** <br>
+> [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) does this automatically. It's best you use *MacPro7,1* for the B650M-7950X combo *(see [Dortania](https://dortania.github.io/OpenCore-Install-Guide/extras/smbios-support.html#how-to-decide) for more information).*
 
 > [!IMPORTANT]
-> test <br>
-> test
+> *You should **map your USB ports yourself.*** <br>
+> Given we have the same motherboard, my mapping *might* work with your setup, though it's recommended you *generate your own USB map.* You can do so using [USBToolBox](https://github.com/USBToolBox/tool) (replace the UTBMap.kext file with yours under EFI/OC/Kexts).
