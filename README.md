@@ -24,6 +24,8 @@
 
 ## Installation
 
+***You should read [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/) prior to following through with the installation process.*** If you like taking your chances, you should at least be familiar with the [terminology](https://dortania.github.io/OpenCore-Install-Guide/terminology.html) used in this guide.
+
 > [!CAUTION]
 > *You must **generate your own SMBIOS.*** <br> *SMBIOS information* is specific to every individual Hackintosh and therefore is not included in the config.plist file. Failure to generate the SMBIOS will result in a lack of functionality for Apple services (such as App Store) or ***cause the installer to fail to boot entirely.*** <br>
 > [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) does this automatically. It's best you use *MacPro7,1* for the B650M-7950X combo *(see [Dortania](https://dortania.github.io/OpenCore-Install-Guide/extras/smbios-support.html#how-to-decide) for more information).*
