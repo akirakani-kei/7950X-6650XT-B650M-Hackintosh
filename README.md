@@ -8,6 +8,7 @@
 **CPU:** *AMD Ryzen 9 7950X* <br>
 **GPU:** *AMD Radeon 6650-XT* (ACPI spoof as 6600-XT by [7luk](https://github.com/7luk)) <br>
 **RAM:** *32GB 6000MHz Corsair Vengeance (2x16)* <br>
+**Storage:** *Kingston NV3 1TB (SNV3S/1000G)* <br>
 **Motherboard:** *GIGABYTE B650M-D3HP* <br>
 <sub>*RTL8125 Network Chipset* <br> *ALC897 Audio* <br>
 <sub>
