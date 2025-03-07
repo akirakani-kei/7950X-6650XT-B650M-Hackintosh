@@ -31,22 +31,21 @@
 > [!IMPORTANT]
 > *You should **map your USB ports yourself.*** <br>
 > Given we have the same motherboard, my mapping *might* work with your setup, though it's recommended you *generate your own USB map.* You can do so using [USBToolBox](https://github.com/USBToolBox/tool) (replace the UTBMap.kext file with yours under EFI/OC/Kexts).
-<br>
 
-**1. BIOS Settings** <br>
+### 1. BIOS Settings
 Access your BIOS settings by pressing the Delete key during startup and change the following settings: <br>
 
 | Setting | Value |
 | :--  | :-- |
-| CSM Support| Disabled
-| Secure Boot | Disabled
-| Fast Boot | Disabled
-| SVM Enable | Disabled
-| Initial Display Output | PCIe 1 Slot
-| Integrated Graphics | Disabled
-| Above 4G Decoding | Enabled
-| Legacy USB Support | Disabled
-| IOMMU | Disabled
+| CSM Support| *Disabled*
+| Secure Boot | *Disabled*
+| Fast Boot | *Disabled*
+| SVM Enable | *Disabled*
+| Initial Display Output | *PCIe 1 Slot*
+| Integrated Graphics | *Disabled*
+| Above 4G Decoding | *Enabled*
+| Legacy USB Support | *Disabled*
+| IOMMU | *Disabled*
 
 <br>
 
@@ -67,11 +66,28 @@ Access your BIOS settings by pressing the Delete key during startup and change t
 *IOMMU: Disabled* <br>
 ![IOMMU](https://github.com/user-attachments/assets/8ca79665-3ac1-4191-bafc-e489b65b6c4a)
 
-<br>
 
-
-**2. Copy installation files** <br>
+### 2. Copy installation files
 *Clone this repository to your installation USB's [EFI partition](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/).*
 ```
 git clone https://github.com/akirakani-kei/7950X-6650XT-B650M-Hackintosh
 ```
+
+## Additional information
+
+#### Table of kexts
+
+| Kext | Optionality |
+| :--  | :-- |
+| Lilu.kext | *Required*
+| AMDRyzenCPUPowerManagenent.kext | *Required*
+| IntelMKLFixup.kext | *Required*
+| AppleMCEReporterDisabler.kext | *Required*
+| AppleALC.kext | *Required* (audio)
+| RestrictEvents.kext | *Required*
+| LucyRTL8125Ethernet.kext| *Required* (internet)
+| VirtualSMC.kext |*Required*
+| WhateverGreen.kext | *Required* (GPU acceleration)
+| USBToolBox.kext | *Required*
+| UTBMap.kext | *Optional* (make your own)
+| NVMeFix.kext | *Optional* (depends on your disk)
