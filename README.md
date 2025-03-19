@@ -75,6 +75,13 @@ Access your BIOS settings by pressing the Delete key during startup and change t
 git clone https://github.com/akirakani-kei/7950X-6650XT-B650M-Hackintosh
 ```
 
+## Benchmarks
+
+### OpenCL GPU Benchmarks:
+![signal-2025-03-08-003815_002](https://github.com/user-attachments/assets/8eb8b114-33ae-4b19-be7e-f212e1d1a964)
+<br>
+<sub> *Windows comparison soon.* <br>
+
 ## Additional information
 
 #### Table of kexts
