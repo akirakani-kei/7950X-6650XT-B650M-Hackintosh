@@ -77,8 +77,10 @@ git clone https://github.com/akirakani-kei/7950X-6650XT-B650M-Hackintosh
 
 ## Benchmarks
 
-### OpenCL GPU Benchmarks:
-![signal-2025-03-08-003815_002](https://github.com/user-attachments/assets/8eb8b114-33ae-4b19-be7e-f212e1d1a964)
+### Metal GPU Benchmarks:
+<img width="863" height="692" alt="image" src="https://github.com/user-attachments/assets/518d7aca-f43f-4592-8ec2-2a8cf89e1caf" />
+<img width="858" height="521" alt="image" src="https://github.com/user-attachments/assets/047acc0c-188e-446a-bb6a-616e46993360" />
+
 <br>
 <sub> *Windows comparison soon.* <br>
 
