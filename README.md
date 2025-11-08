@@ -100,3 +100,10 @@ git clone https://github.com/akirakani-kei/7950X-6650XT-B650M-Hackintosh
 | USBToolBox.kext | *Required*
 | UTBMap.kext | *Optional* (make your own)
 | NVMeFix.kext | *Optional* (depends on your disk)
+| RadeonSensor.kext | *Optional* (temp monitor)
+| SMCAMDProcessor.kext | *Optional* (temp monitor)
+| SMCRadeonGPU.kext | *Optional* (temp monitor)
+| Phantom.kext | *Optional* (for league lol)
+
+
+
